@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visualizations</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="navigation">
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="title2" href="index.html">Latitude</a>
+          </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                      </div>
+                </ul>
+              </li>
+              <li><a href="comparisons.html" class="toggle">Comparison</a></li>
+              <li><a href="data.html" class="toggle">Data</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-12">
+        <div class="box">
+          <h3 class="title">Cloudiness</h3>
+          <hr>
+          <img src="Resources/assets/images/Fig3.png" align="top" class="float-left" width="100%" height="100%" alt="Cloudiness Graph" />
+          <p>There is no strong relationship between cloudiness compared to the latitude. There is however, a noticeable line at 0 cloudiness, ~75, and 90 percent marks.</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <div class="box">
+          <h4 class="title">Visualizations</h4>
+          <hr>
+            <div class="row">
+              <div class="col-sm-3 col-md-3 col-lg-6">
+                <a href="max_temperature.html">
+                  <img class="panel" src="Resources/assets/images/Fig1.png" width="100%" height="100%" alt="Max Temperature Graph" />
+                </a>
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-6">
+                <a href="humidity.html">
+                  <img class="panel" src="Resources/assets/images/Fig2.png" width="100%" height="100%" alt="Humidity Graph" />
+                </a>
+              </div>
+            <div class="row">
+              <div class="col-sm-3 col-md-3 col-lg-6">
+                <a href="cloudiness.html">
+                  <img class="panel" src="Resources/assets/images/Fig3.png" width="100%" height="100%" alt="Cloudiness Graph" />
+                </a>
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-6">
+                <a href="wind_speed.html">
+                  <img class="panel" src="Resources/assets/images/Fig4.png" width="100%" height="100%"  alt="Wind Speed Graph" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer>
+  <div class="footer">&copy; Copyright Ryan Evans 2019</div>
+</footer>
+
+</body>
+
+</html>
